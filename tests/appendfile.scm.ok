@@ -1,0 +1,7 @@
+init -> #true
+start -> #u8(42 42 42)
+1st size -> 3
+2nd size -> 7
+*** + append aaa\n -> #u8(42 42 42 97 97 97 10)
+truncate + bbb -> #u8(98 98 98 10)
+remove -> #true
